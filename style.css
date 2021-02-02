@@ -1,0 +1,55 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+}
+
+.main-container {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.main-item {
+    width: 100%;
+    
+}
+
+.sub-item{
+    text-align: center;
+}
+  
+.sub-container {
+    font-size: 30px;
+    width: 100%;
+}
+.header h1 {
+    font-family:"brush script m7", Brush, cursive;
+    color: cornsilk;
+   
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(233, 205, 168);
+    height: 75px;
+    width: 100%;
+}
+
+.header a {
+    font-family: "Monaco", Monaco, monospace;
+    font-weight: 700;
+    font-size: 25px;
+    color:chocolate;
+    text-decoration: none;
+}
+
+.footer {
+    height: 75px;
+    width: 100%;
+    text-align: justify;
+    
+}
+@media (max-width: 576px) 
+{
